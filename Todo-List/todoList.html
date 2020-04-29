@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Todo List</title>
+    <!-- Font-awesome CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+<link rel="stylesheet" href="./index.css" />
+   
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 py-5"></div>
+        <div class="col-md-5 todoListSection py-2">
+          <h1 class="text-light">Todo List</h1>
+          <form class="searchForm py-2">
+            <label></label>
+            <input
+              type="text"
+              name="search"
+              class="form-control search"
+              placeholder="Search todos.."
+            />
+          </form>
+
+          <ul class="list-group todoList mx-auto">
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Akash Singh</span>
+              <i class="fas fa-trash-alt delete cursor"> </i>
+            </li>
+          </ul>
+          <form class="addForm py-2">
+            <input
+              type="text"
+              name="add"
+              class="form-control add"
+              placeholder="Add todo.."
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js">     
+    </script>
+  </body>
+</html>

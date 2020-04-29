@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(64, 0, 148);
+  }
+  .cursor {
+    cursor: pointer;
+  }
+  .filtered {
+    display: none !important;
+  }
+  .delete {
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .todoListSection {
+    background-color: rgba(57, 0, 133, 0.664);
+  }
